@@ -8,7 +8,7 @@ HeadBug is a Python-based tool designed to check the security of web headers and
 - Provides recommendations based on OWASP and Mozilla guidelines
 - Supports custom request headers (e.g., for authorization)
 
-##Requirements
+## Requirements
 - Python 3.6 or higher
 
 ## Usage
