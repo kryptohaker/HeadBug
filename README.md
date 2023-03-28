@@ -32,10 +32,10 @@ Example of custom_headers.json file with an Authorization header using the Beare
 {
   "Authorization": "Bearer your_jwt_token_here"
 }
+```
 
 >Remember that not all recommendations may apply to every application, and you should review and adjust these recommendations based on your specific requirements and threat model.
 
-```
 ## How to create a JSON file for checking of header
 
 Here is a step-by-step guide to creating a JSON file for checking the `X-Content-Type-Options` header:
