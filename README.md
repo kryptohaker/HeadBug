@@ -1,5 +1,5 @@
 # HeadBug (Web Header Security Checker)
-HeadBug is a Python-based tool designed to check the security of web headers and cookies based on JSON recommendations. It helps identify potential security issues in the HTTP headers and cookies of a target website.
+HeadBug is a Python-based tool designed to check the security of web headers and cookies based on OWASP and Mozilla recommendations. It helps identify potential security issues in the HTTP headers and cookies of a target website.
 
 ## Features
 - Checks target site headers for security best practices
