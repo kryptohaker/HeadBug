@@ -1,0 +1,5 @@
+{
+  "header": "Feature-Policy",
+  "missing_message": "Feature-Policy header is deprecated. Consider using Permissions-Policy instead.",
+  "check": "lambda value: ['Feature-Policy is deprecated. Consider using Permissions-Policy instead.']"
+}

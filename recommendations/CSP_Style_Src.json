@@ -1,0 +1,5 @@
+{
+  "header": "Content-Security-Policy",
+  "missing_message": "",
+  "check": "lambda value: ['CSP style-src directive is missing or improperly configured.'] if 'style-src' not in value else []"
+}

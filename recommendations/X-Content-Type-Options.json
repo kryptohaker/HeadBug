@@ -1,0 +1,5 @@
+{
+  "header": "X-Content-Type-Options",
+  "missing_message": "X-Content-Type-Options header is missing. Consider adding it with the value 'nosniff' to prevent MIME type confusion attacks.",
+  "check": "lambda value: ['X-Content-Type-Options should be set to nosniff.'] if value.lower() != 'nosniff' else []"
+}

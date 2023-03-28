@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Secure",
+    "check": "lambda cookie: False if cookie['secure'] else True",
+    "message": "Cookie '{cookie_name}' is missing the 'Secure' flag."
+  },
+  {
+    "name": "HttpOnly",
+    "check": "lambda cookie: False if cookie['httponly'] else True",
+    "message": "Cookie '{cookie_name}' is missing the 'HttpOnly' flag."
+  },
+  {
+    "name": "SameSite",
+    "check": "lambda cookie: False if cookie['samesite'] in ['Strict', 'Lax', 'None'] else True",
+    "message": "Cookie '{cookie_name}' has an incorrect or missing 'SameSite' attribute."
+  }
+]

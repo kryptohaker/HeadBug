@@ -1,0 +1,5 @@
+{
+  "name": "Secure_Prefix",
+  "check": "lambda cookie: False if cookie.key.startswith('__Secure-') or not cookie['secure'] else True",
+  "message": "Cookie '{cookie_name}' should have a name starting with '__Secure-' if the 'Secure' flag is set."
+}

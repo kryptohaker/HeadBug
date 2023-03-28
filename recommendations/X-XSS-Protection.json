@@ -1,0 +1,5 @@
+{
+  "header": "X-XSS-Protection",
+  "missing_message": "X-XSS-Protection header is missing. Consider adding it with the value '1; mode=block' to enable XSS filtering.",
+  "check": "lambda value: ['X-XSS-Protection should be set to 1; mode=block.'] if value != '1; mode=block' else []"
+}

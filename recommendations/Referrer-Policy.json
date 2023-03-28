@@ -1,0 +1,5 @@
+{
+  "header": "Referrer-Policy",
+  "missing_message": "Referrer-Policy header is missing. Consider adding it to control the information sent in the Referer header.",
+  "check": "lambda value: ['Referrer-Policy value should be one of the following: no-referrer, no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin.'] if value.lower() not in ['no-referrer', 'no-referrer-when-downgrade', 'origin', 'origin-when-cross-origin', 'same-origin', 'strict-origin', 'strict-origin-when-cross-origin'] else []"
+}

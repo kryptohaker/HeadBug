@@ -1,0 +1,5 @@
+{
+  "header": "X-Content-Security-Policy",
+  "missing_message": "X-Content-Security-Policy header is deprecated. Consider using Content-Security-Policy instead.",
+  "check": "lambda value: ['X-Content-Security-Policy is deprecated. Consider using Content-Security-Policy instead.']"
+}

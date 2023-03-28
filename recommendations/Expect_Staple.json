@@ -1,0 +1,5 @@
+{
+  "header": "Expect-Staple",
+  "missing_message": "Expect-Staple header is missing. Consider adding it to improve OCSP stapling.",
+  "check": "lambda value: []"
+}

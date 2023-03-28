@@ -1,0 +1,5 @@
+{
+  "header": "Access-Control-Allow-Origin",
+  "missing_message": "Access-Control-Allow-Origin header is missing. If your application uses CORS, consider adding it.",
+  "check": "lambda value: ['Access-Control-Allow-Origin should not be set to * (wildcard) for better security.'] if value == '*' else []"
+}

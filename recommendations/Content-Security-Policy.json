@@ -1,0 +1,5 @@
+{
+  "header": "Content-Security-Policy",
+  "missing_message": "Content-Security-Policy header is missing. Consider adding it for better security.",
+  "check": "lambda value: ['CSP is too permissive. Consider using a stricter policy.'] if 'unsafe-inline' in value or 'unsafe-eval' in value else []"
+}

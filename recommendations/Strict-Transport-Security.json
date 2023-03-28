@@ -1,0 +1,5 @@
+{
+  "header": "Strict-Transport-Security",
+  "missing_message": "Strict-Transport-Security header is missing. Consider adding it to enforce HTTPS connections.",
+  "check": "lambda value: ['Strict-Transport-Security should include max-age and optionally include-subdomains and/or preload.'] if 'max-age' not in value.lower() else []"
+}

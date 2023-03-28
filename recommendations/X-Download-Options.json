@@ -1,0 +1,5 @@
+{
+  "header": "X-Download-Options",
+  "missing_message": "X-Download-Options header is missing. Consider adding it with the value 'noopen' to prevent file downloads from being opened directly.",
+  "check": "lambda value: ['X-Download-Options should be set to noopen.'] if value.lower() != 'noopen' else []"
+}

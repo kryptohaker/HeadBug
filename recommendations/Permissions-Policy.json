@@ -1,0 +1,5 @@
+{
+  "header": "Permissions-Policy",
+  "missing_message": "Permissions-Policy header is missing. Consider adding it to control the use of browser features and APIs.",
+  "check": "lambda value: []"
+}

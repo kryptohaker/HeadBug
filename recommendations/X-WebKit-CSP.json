@@ -1,0 +1,5 @@
+{
+  "header": "X-WebKit-CSP",
+  "missing_message": "X-WebKit-CSP header is deprecated. Consider using Content-Security-Policy instead.",
+  "check": "lambda value: ['X-WebKit-CSP is deprecated. Consider using Content-Security-Policy instead.']"
+}

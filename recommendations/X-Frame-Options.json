@@ -1,0 +1,5 @@
+{
+  "header": "X-Frame-Options",
+  "missing_message": "X-Frame-Options header is missing. Consider adding it to protect against clickjacking attacks.",
+  "check": "lambda value: ['X-Frame-Options should be set to DENY or SAMEORIGIN.'] if value.lower() not in ['deny', 'sameorigin'] else []"
+}

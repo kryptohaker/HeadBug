@@ -1,0 +1,5 @@
+{
+  "name": "Host_Prefix",
+  "check": "lambda cookie: False if cookie.key.startswith('__Host-') and cookie['secure'] and cookie['path'] == '/' and not cookie['domain'] else True",
+  "message": "Cookie '{cookie_name}' should have a name starting with '__Host-' and the 'Secure' flag set, with path attribute set to '/' and no domain attribute set."
+}

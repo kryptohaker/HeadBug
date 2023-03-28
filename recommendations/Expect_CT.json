@@ -1,0 +1,5 @@
+{
+  "header": "Expect-CT",
+  "missing_message": "Expect-CT header is missing. Consider adding it to improve certificate transparency.",
+  "check": "lambda value: []"
+}

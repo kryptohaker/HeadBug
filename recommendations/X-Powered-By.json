@@ -1,0 +1,5 @@
+{
+  "header": "X-Powered-By",
+  "missing_message": "X-Powered-By header is not recommended. Consider removing it to avoid revealing server information.",
+  "check": "lambda value: ['X-Powered-By header is not recommended. Consider removing it.']"
+}

@@ -1,0 +1,5 @@
+{
+  "header": "Content-Security-Policy",
+  "missing_message": "Content-Security-Policy header is missing. Consider adding it to enhance your application's security.",
+  "check": "lambda value: ['CSP default-src directive is missing or improperly configured.'] if 'default-src' not in value else []"
+}

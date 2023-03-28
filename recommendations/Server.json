@@ -1,0 +1,5 @@
+{
+  "header": "Server",
+  "missing_message": "Server header is not recommended. Consider removing it to avoid revealing server information.",
+  "check": "lambda value: ['Server header is not recommended. Consider removing it.']"
+}
